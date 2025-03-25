@@ -48,13 +48,15 @@ function HamburgerMenu() {
             {/* Background dim (clicking it closes sidebar) */}
             {isMenuOpen && (
                 <div
-                    className="fixed inset-0 bg-black opacity-25 transition-opacity duration-800"
+                    className="fixed inset-0 bg-black opacity-45 transition-opacity duration-800"
                     onClick={handleCloseSidebar}
                 />
             )}
 
             {/* Sidebar */}
-            <div className={`fixed top-0 left-0 h-full bg-gray-900 text-white transition-transform transform border-r ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+            <div className={`fixed top-0 left-0 h-full bg-slate-950 text-white transition-transform transform ${
+            isMenuOpen ? 'translate-x-0 shadow-lg shadow-white' : '-translate-x-full'
+            }`}>
                 <div className="w-69 p-5 flex flex-col">
 
                     {/* Button to exit sidebar */}

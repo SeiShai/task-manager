@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Pending from './pages/Pending';
-import InProgress from './pages/InProgress.jsx';
+import Pending from './pages/pending';
+import InProgress from './pages/inProgress.jsx';
 import LandingPage from "./pages/landingPage.jsx";
+import Done from './pages/done.jsx';
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/Pending" element={<Pending />} />
                 <Route path="/in-progress" element={<InProgress />} />
+                <Route path="/done" element={<Done />} />
                 {/* Define routes for other pages here */}
             </Routes>
         </Router>
