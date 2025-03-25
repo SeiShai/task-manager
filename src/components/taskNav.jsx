@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function TaskNav() {
     return (
         <nav className="flex flex-row justify-around p-3 border-b">
-            <Link to="/">
+            <Link to="/pending">
                 <button className={"cursor-pointer hover:bg-white hover:text-black "}>Pending</button>
             </Link>
             <Link to="/in-progress">

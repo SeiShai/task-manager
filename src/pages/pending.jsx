@@ -5,7 +5,7 @@ import AddButton from "../components/addButton.jsx";
 function Pending() {
 
     return (
-        <div className="bg-gray-900 h-screen w-screen m-0 p-5 gap-5 flex flex-col">
+        <div className="bg-slate-950 h-screen w-screen m-0 p-5 gap-5 flex flex-col">
             <div className="flex flex-col text-white">
                 <div className="flex flex-row justify-between items-center">
                     {/* Hamburger Menu */}
@@ -17,7 +17,7 @@ function Pending() {
             </div>
 
             {/* Scrollable Tasks Plates */}
-            <div className={"text-white h-full  overflow-y-auto bg-gray-500"}>
+            <div className={"text-white h-full overflow-y-auto bg-white/10"}>
                 
             </div>
 

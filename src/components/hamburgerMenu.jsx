@@ -39,9 +39,9 @@ function HamburgerMenu() {
             {/* Hamburger button */}
             <button onClick={handleMenuToggle}>
                 {isMenuOpen ? (
-                    <BsBoxArrowLeft className="size-6 cursor-pointer" />
+                    <BsBoxArrowLeft className="size-6 cursor-pointer text-white" />
                 ) : (
-                    <RxHamburgerMenu className="size-6 cursor-pointer" />
+                    <RxHamburgerMenu className="size-6 cursor-pointer text-white" />
                 )}
             </button>
 
